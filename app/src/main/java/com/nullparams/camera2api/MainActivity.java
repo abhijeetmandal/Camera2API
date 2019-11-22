@@ -746,7 +746,7 @@ public class MainActivity extends AppCompatActivity {
 
         new androidx.appcompat.app.AlertDialog.Builder(context)
                 .setTitle("Permission needed to access Camera")
-                .setMessage("This permission is needed in order to take a photo immediately for use in Notes. Manually enable in Settings > Apps & notifications > StratPay > Permissions.")
+                .setMessage("This permission is needed in order to take a photo immediately for use in Notes. Manually enable in Settings > Apps & notifications > Camera2API > Permissions.")
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -765,7 +765,7 @@ public class MainActivity extends AppCompatActivity {
 
         new AlertDialog.Builder(context)
                 .setTitle("Permission needed to Write to External Storage")
-                .setMessage("This permission is needed in order save images taken with the camera when accessed by the App. Manually enable in Settings > Apps & notifications > StratPay > Permissions.")
+                .setMessage("This permission is needed in order save images taken with the camera when accessed by the App. Manually enable in Settings > Apps & notifications > Camera2API > Permissions.")
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
